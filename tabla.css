@@ -1,0 +1,253 @@
+body	{
+  margin: 0;
+  padding: 0;
+  font-family: 'times new roman';
+}
+/*INICIA LA PARTE DEL ENCABEZADO Y DEL LOGO IHER*/
+#linea{
+  width: 100%;
+  height: 20px;
+  background: #008080;
+}
+
+#encabezado{
+  width: 146%;
+  height: 250px;
+  border: 0px solid;
+  background: #f5deb3;
+}
+
+#centro{
+  width: 100%;
+  overflow: hidden;
+  background:#008080;
+  height: 200vh;
+} 
+
+
+#encabezado #logo{
+  width: 550px;
+  text-align: center;
+  height: auto;
+  border: 0px solid;
+  float: left;
+}
+
+#encabezado #logo h2{
+  color: #000080;
+}
+
+.imagen{
+  width: 170px;
+  height: auto;
+  margin-top: 0px;
+  float: left;
+  margin-right: 12px;
+  margin-left: 11px;
+  border-radius: 9px;
+  
+}
+
+/*FINALIZA LA PARTE DEL ENCABEZADO Y DEL LOGO IHER*/
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES*/
+
+#menuprincipal .menu{
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+  text-align: center;
+  border: 0px solid;
+  font-size: 22px;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav li{
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.menu ul{
+  position: absolute;
+}
+
+nav a{
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  transition: .10s;
+  padding: 10px 20px;
+}
+
+nav a:hover{
+  background: rgba(218,165,32);
+}
+
+nav li ul{
+  float: right;
+  font-size: 20px;
+}
+
+/*menu parte primer nivel*/
+.menu{
+  background: #f5deb3;
+  display: table;
+  height: auto;
+}
+  
+.menu >li{
+  float: left;
+}
+
+/*menu para segundo nivel*/
+nav li li{
+  background: #f0e68c;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .24s;
+  width: 280px;
+}
+
+nav li:hover > ul > li{
+  max-height: 500px;
+  overflow: visible;
+}
+
+.menu > li > ul{
+  top:100%;
+}
+
+/*menu parte tercer nivel*/
+
+.menu ul ul{
+ left:100%;
+ top: 1;
+}
+
+
+/*FINALIZA LA PARTE DEL MENU*/
+/*DE AQUÍ EN ADELANTE ES EL CODIGO DE LA tabla*/
+
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #deb887;}
+td.medio {background-color: #d2b48c;}
+td.alto {background-color: #deb887;}
+td.a {background-color: #bebebe;}
+td.b {background-color: #cccc99;}
+td.c {background-color: #999999;}
+
+td.aaa {background-color: #99ff99;}
+td.bbb {background-color: #66ffcc;}
+td.ccc {background-color: #ccffff;}
+
+thead.cabecera tr td {
+  font-fomily: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #000080;
+  padding: 50px;}
+
+tfoot.pie tr td {
+  font-size: 25px;
+  font-weight: bold;
+  font-fomily: Georgia;
+  padding: 30px;}
+
+tbody.cuerpo tr td {
+  font-size: 25px;
+  color: #000000;
+  padding: 20px;}
+
+td {border-style: solid;
+    border-color: #000000;
+    border-width: 6px;}
+
+  
+#contaduria .h2{
+  width:150%;
+  overflow: hidden;
+  text-align: justify;
+  background:#ff6347;
+  height: 200vh;
+}
+
+#salud .salud{
+  width: 150%;
+  overflow: hidden;
+  text-aling: justify;
+  background:#ff6347;
+  height: 200vh;
+}
+
+#administracionf{
+  width: 100%;
+  overflow: hidden;
+  text-aling: justify;
+  background:#ff6347;
+  height: 200vh;
+} 
+
+.contenedor{
+				position: relative;
+				display: inline-block;
+				text-align: centro;
+
+}
+
+.text-encima{
+				position: absolute;
+				top: 50px;
+				left: 50px;
+
+}
+
+.centrado{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-60%,-60%);
+				color: #ffffff;
+}
+
+
+  #destino{
+  width: 100%;
+  overflow: hidden;
+  text-align: justify;
+  color: #ff6347;
+  height: 200vh;
+}   
+ 
+
+#nosotros{
+				width: 100%;
+				overflow: hidden;
+				text-align: justify;
+				color: #ff6347;
+				height: 200vh;
+}
+
+ .logo5{
+  position: absolute;
+  width: 170px;
+  height: 170;
+  top: 40px;
+  left: 40px;
+  
+}     
+
+
+
+
+ 
+
+
+
+     
+
+
+
